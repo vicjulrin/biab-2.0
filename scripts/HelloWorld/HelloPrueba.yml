@@ -1,0 +1,14 @@
+script: HelloPrueba.py
+inputs:
+  num:
+    label: Some int
+    description: A number that will define your face
+    type: int
+    example: 8
+outputs:
+  your_face:
+    label: your face
+    description: I'm guessing your face
+    type: string
+    example: :)
+description: "Sample python script ¯\_(ツ)_/¯"

@@ -5,6 +5,7 @@ import time;
 inputFile = open(sys.argv[1] + '/input.json')
 data = json.load(inputFile)
 intIn = data['some_int']
+print(intIn)
 
 # Do stuff.
 print("Ready?", flush=True)

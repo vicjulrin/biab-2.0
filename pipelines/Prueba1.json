@@ -1,0 +1,379 @@
+{
+  "nodes": [
+    {
+      "id": "5",
+      "type": "io",
+      "position": {
+        "x": 235.5,
+        "y": 41
+      },
+      "data": {
+        "descriptionFile": "HelloWorld>HelloPython.yml"
+      },
+      "positionAbsolute": {
+        "x": 235.5,
+        "y": 41
+      },
+      "z": 0,
+      "handleBounds": {
+        "source": [
+          {
+            "id": "increment",
+            "position": "right",
+            "x": 282.3499755859375,
+            "y": 7,
+            "width": 8,
+            "height": 8
+          }
+        ],
+        "target": [
+          {
+            "id": "some_int",
+            "position": "left",
+            "x": -3,
+            "y": 7,
+            "width": 8,
+            "height": 8
+          }
+        ]
+      },
+      "width": 287,
+      "height": 45,
+      "selected": false,
+      "targetPosition": "left",
+      "sourcePosition": "right"
+    },
+    {
+      "id": "6",
+      "type": "constant",
+      "position": {
+        "x": -124.5,
+        "y": 48
+      },
+      "data": {
+        "type": "int",
+        "value": "14"
+      },
+      "positionAbsolute": {
+        "x": -124.5,
+        "y": 48
+      },
+      "z": 0,
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "position": "right",
+            "x": 245.36669921875,
+            "y": 11.5,
+            "width": 8,
+            "height": 8
+          }
+        ],
+        "target": null
+      },
+      "width": 249,
+      "height": 31,
+      "selected": false,
+      "targetPosition": "left",
+      "sourcePosition": "right"
+    },
+    {
+      "id": "7",
+      "type": "io",
+      "position": {
+        "x": 650.5,
+        "y": 37.5
+      },
+      "data": {
+        "descriptionFile": "HelloWorld>HelloR.yml"
+      },
+      "positionAbsolute": {
+        "x": 650.5,
+        "y": 37.5
+      },
+      "z": 1000,
+      "handleBounds": {
+        "source": [
+          {
+            "id": "text",
+            "position": "right",
+            "x": 286.4833984375,
+            "y": 7,
+            "width": 8,
+            "height": 8
+          },
+          {
+            "id": "number",
+            "position": "right",
+            "x": 286.4833984375,
+            "y": 21,
+            "width": 8,
+            "height": 8
+          },
+          {
+            "id": "heat_map",
+            "position": "right",
+            "x": 286.4833984375,
+            "y": 35,
+            "width": 8,
+            "height": 8
+          },
+          {
+            "id": "some_csv_data",
+            "position": "right",
+            "x": 286.4833984375,
+            "y": 49,
+            "width": 8,
+            "height": 8
+          },
+          {
+            "id": "some_tsv_data",
+            "position": "right",
+            "x": 286.4833984375,
+            "y": 63,
+            "width": 8,
+            "height": 8
+          },
+          {
+            "id": "some_picture",
+            "position": "right",
+            "x": 286.4833984375,
+            "y": 77,
+            "width": 8,
+            "height": 8
+          }
+        ],
+        "target": [
+          {
+            "id": "occurence",
+            "position": "left",
+            "x": -3,
+            "y": 7,
+            "width": 8,
+            "height": 8
+          },
+          {
+            "id": "intensity",
+            "position": "left",
+            "x": -3,
+            "y": 21,
+            "width": 8,
+            "height": 8
+          },
+          {
+            "id": "species",
+            "position": "left",
+            "x": -3,
+            "y": 35,
+            "width": 8,
+            "height": 8
+          },
+          {
+            "id": "a_boolean",
+            "position": "left",
+            "x": -3,
+            "y": 49,
+            "width": 8,
+            "height": 8
+          }
+        ]
+      },
+      "width": 291,
+      "height": 100,
+      "selected": true,
+      "dragging": false,
+      "targetPosition": "left",
+      "sourcePosition": "right"
+    },
+    {
+      "id": "8",
+      "type": "output",
+      "position": {
+        "x": 1062,
+        "y": 68
+      },
+      "data": {
+        "label": "Output"
+      },
+      "targetPosition": "left",
+      "positionAbsolute": {
+        "x": 1062,
+        "y": 68
+      },
+      "z": 0,
+      "handleBounds": {
+        "source": null,
+        "target": [
+          {
+            "id": null,
+            "position": "left",
+            "x": -2,
+            "y": 15.5,
+            "width": 8,
+            "height": 8
+          }
+        ]
+      },
+      "width": 150,
+      "height": 39,
+      "sourcePosition": "right"
+    },
+    {
+      "id": "9",
+      "type": "constant",
+      "position": {
+        "x": 75.5,
+        "y": 0
+      },
+      "data": {
+        "type": "image/tiff;application=geotiff",
+        "value": "http://something-compatible.tiff"
+      },
+      "positionAbsolute": {
+        "x": 75.5,
+        "y": 0
+      },
+      "z": 0,
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "position": "right",
+            "x": 443.0999755859375,
+            "y": 11.5,
+            "width": 8,
+            "height": 8
+          }
+        ],
+        "target": null
+      },
+      "width": 447,
+      "height": 31,
+      "selected": false,
+      "dragging": false,
+      "targetPosition": "left",
+      "sourcePosition": "right"
+    },
+    {
+      "id": "10",
+      "type": "constant",
+      "position": {
+        "x": 251.5,
+        "y": 96
+      },
+      "data": {
+        "type": "text[]",
+        "value": [
+          "Acer saccharum",
+          "Bubo scandiacus"
+        ]
+      },
+      "positionAbsolute": {
+        "x": 251.5,
+        "y": 96
+      },
+      "z": 0,
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "position": "right",
+            "x": 267.3499755859375,
+            "y": 11.5,
+            "width": 8,
+            "height": 8
+          }
+        ],
+        "target": null
+      },
+      "width": 271,
+      "height": 31,
+      "targetPosition": "left",
+      "sourcePosition": "right"
+    },
+    {
+      "id": "11",
+      "type": "constant",
+      "position": {
+        "x": 414.5,
+        "y": 137
+      },
+      "data": {
+        "type": "boolean",
+        "value": true
+      },
+      "positionAbsolute": {
+        "x": 414.5,
+        "y": 137
+      },
+      "z": 0,
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "position": "right",
+            "x": 103.83331298828125,
+            "y": 9,
+            "width": 8,
+            "height": 8
+          }
+        ],
+        "target": null
+      },
+      "width": 108,
+      "height": 26,
+      "targetPosition": "left",
+      "sourcePosition": "right"
+    }
+  ],
+  "edges": [
+    {
+      "source": "6",
+      "sourceHandle": null,
+      "target": "5",
+      "targetHandle": "some_int",
+      "id": "reactflow__edge-6-5some_int"
+    },
+    {
+      "source": "7",
+      "sourceHandle": "number",
+      "target": "8",
+      "targetHandle": null,
+      "id": "reactflow__edge-7number-8"
+    },
+    {
+      "source": "9",
+      "sourceHandle": null,
+      "target": "7",
+      "targetHandle": "occurence",
+      "id": "reactflow__edge-9-7occurence"
+    },
+    {
+      "source": "5",
+      "sourceHandle": "increment",
+      "target": "7",
+      "targetHandle": "intensity",
+      "id": "reactflow__edge-5increment-7intensity"
+    },
+    {
+      "source": "10",
+      "sourceHandle": null,
+      "target": "7",
+      "targetHandle": "species",
+      "id": "reactflow__edge-10-7species"
+    },
+    {
+      "source": "11",
+      "sourceHandle": null,
+      "target": "7",
+      "targetHandle": "a_boolean",
+      "id": "reactflow__edge-11-7a_boolean"
+    }
+  ],
+  "viewport": {
+    "x": 211,
+    "y": 332,
+    "zoom": 1
+  }
+}
